@@ -1,0 +1,315 @@
+[
+  {
+    "id": "ml-001",
+    "text": "麻烦你把窗户关一下，外面有点吵。",
+    "english": "Could you close the window? It is a bit noisy outside.",
+    "voice": "Tingting",
+    "rate": 275,
+    "tags": ["request", "noise-vocabulary"]
+  },
+  {
+    "id": "ml-002",
+    "text": "我不是说周三，我说的是下周四。",
+    "english": "I did not say Wednesday; I meant next Thursday.",
+    "voice": "Meijia",
+    "rate": 280,
+    "tags": ["negation", "date", "taiwan-voice"],
+    "criticalSpans": [
+      {
+        "kind": "negation",
+        "accepted": ["不是"],
+        "safetyCritical": true
+      },
+      {
+        "kind": "date",
+        "accepted": ["周三", "星期三"]
+      },
+      {
+        "kind": "date",
+        "accepted": ["下周四", "下星期四"]
+      }
+    ]
+  },
+  {
+    "id": "ml-003",
+    "text": "会议从上午九点推迟到十点半。",
+    "english": "The meeting has been postponed from nine to half past ten.",
+    "voice": "Tingting",
+    "rate": 300,
+    "tags": ["numbers", "time"],
+    "criticalSpans": [
+      {
+        "kind": "number",
+        "accepted": ["九点", "9点"],
+        "safetyCritical": true
+      },
+      {
+        "kind": "number",
+        "accepted": ["十点半", "10点半"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-004",
+    "text": "这个方案听起来不错，不过预算可能不够。",
+    "english": "The plan sounds good, but the budget may not be enough.",
+    "voice": "Meijia",
+    "rate": 270,
+    "tags": ["nuance", "taiwan-voice"]
+  },
+  {
+    "id": "ml-005",
+    "text": "你先别着急，我们慢慢把事情说清楚。",
+    "english": "Do not worry yet; let us talk it through calmly.",
+    "voice": "Tingting",
+    "rate": 315,
+    "tags": ["colloquial", "fast"]
+  },
+  {
+    "id": "ml-006",
+    "text": "她刚才说的那个地方离地铁站远不远？",
+    "english": "Is the place she mentioned far from the underground station?",
+    "voice": "Meijia",
+    "rate": 290,
+    "tags": ["question", "context", "taiwan-voice"]
+  },
+  {
+    "id": "ml-007",
+    "text": "要是明天下雨，我们就改在室内见面。",
+    "english": "If it rains tomorrow, we will meet indoors instead.",
+    "voice": "Tingting",
+    "rate": 305,
+    "tags": ["conditional", "weather"]
+  },
+  {
+    "id": "ml-008",
+    "text": "这家店的菜有点辣，但是味道很正宗。",
+    "english": "The food here is a bit spicy, but it tastes authentic.",
+    "voice": "Meijia",
+    "rate": 285,
+    "tags": ["food", "adjective", "taiwan-voice"]
+  },
+  {
+    "id": "ml-009",
+    "text": "一共是三百七十八块五毛，你转我三百八就行。",
+    "english": "It is 378.50 in total; just send me 380.",
+    "voice": "Tingting",
+    "rate": 300,
+    "tags": ["money", "numbers", "fast"],
+    "criticalSpans": [
+      {
+        "kind": "number",
+        "accepted": ["三百七十八块五毛", "378块5毛", "378.5"],
+        "safetyCritical": true
+      },
+      {
+        "kind": "number",
+        "accepted": ["三百八", "380"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-010",
+    "text": "我已经给王经理发消息了，他晚一点会回复。",
+    "english": "I have messaged Manager Wang; he will reply later.",
+    "voice": "Meijia",
+    "rate": 275,
+    "tags": ["name", "ellipsis", "taiwan-voice"],
+    "criticalSpans": [
+      {
+        "kind": "name",
+        "accepted": ["王经理"]
+      }
+    ]
+  },
+  {
+    "id": "ml-011",
+    "text": "不是所有人都同意这个决定。",
+    "english": "Not everyone agrees with this decision.",
+    "voice": "Tingting",
+    "rate": 320,
+    "tags": ["negation", "fast"],
+    "criticalSpans": [
+      {
+        "kind": "negation",
+        "accepted": ["不是所有人"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-012",
+    "text": "从这里坐高铁到上海大概需要四个半小时。",
+    "english": "The high-speed train from here to Shanghai takes about four and a half hours.",
+    "voice": "Meijia",
+    "rate": 295,
+    "tags": ["place", "duration", "taiwan-voice"],
+    "criticalSpans": [
+      {
+        "kind": "name",
+        "accepted": ["上海"]
+      },
+      {
+        "kind": "number",
+        "accepted": ["四个半小时", "4个半小时", "4.5小时"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-013",
+    "text": "我本来想自己处理，后来发现还是得找你帮忙。",
+    "english": "I meant to handle it myself, but realised I still needed your help.",
+    "voice": "Tingting",
+    "rate": 310,
+    "tags": ["discourse", "fast"]
+  },
+  {
+    "id": "ml-014",
+    "text": "他说话虽然快，但是重点其实就两个。",
+    "english": "He speaks quickly, but there are really only two main points.",
+    "voice": "Meijia",
+    "rate": 320,
+    "tags": ["fast", "numbers", "taiwan-voice"],
+    "criticalSpans": [
+      {
+        "kind": "number",
+        "accepted": ["两个", "2个"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-015",
+    "text": "你方便的话，把合同最后一页拍给我看一下。",
+    "english": "When you can, send me a photo of the contract's last page.",
+    "voice": "Tingting",
+    "rate": 285,
+    "tags": ["request", "business"]
+  },
+  {
+    "id": "ml-016",
+    "text": "这件事先不要告诉别人，等我们确认以后再说。",
+    "english": "Do not tell anyone yet; wait until we have confirmed it.",
+    "voice": "Meijia",
+    "rate": 300,
+    "tags": ["negation", "instruction", "taiwan-voice"],
+    "criticalSpans": [
+      {
+        "kind": "negation",
+        "accepted": ["不要告诉"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-017",
+    "text": "我听懂你的意思了，只是还需要一点时间考虑。",
+    "english": "I understand what you mean; I just need a little time to think.",
+    "voice": "Tingting",
+    "rate": 280,
+    "tags": ["nuance", "context"]
+  },
+  {
+    "id": "ml-018",
+    "text": "这个词在四川那边的说法可能不太一样。",
+    "english": "They may say this word differently in Sichuan.",
+    "voice": "Meijia",
+    "rate": 305,
+    "tags": ["accent-vocabulary", "place", "taiwan-voice"]
+  },
+  {
+    "id": "ml-019",
+    "text": "她不是不想去，只是今天身体有点不舒服。",
+    "english": "It is not that she does not want to go; she feels unwell today.",
+    "voice": "Tingting",
+    "rate": 315,
+    "tags": ["double-negation", "fast"],
+    "criticalSpans": [
+      {
+        "kind": "negation",
+        "accepted": ["不是不想去"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-020",
+    "text": "航班号是MU五一三七，下午四点二十五分起飞。",
+    "english": "Flight MU5137 departs at 4:25 this afternoon.",
+    "voice": "Meijia",
+    "rate": 290,
+    "tags": ["alphanumeric", "time", "taiwan-voice"],
+    "criticalSpans": [
+      {
+        "kind": "number",
+        "accepted": ["MU五一三七", "MU5137"],
+        "safetyCritical": true
+      },
+      {
+        "kind": "number",
+        "accepted": ["四点二十五分", "4点25分", "16点25分", "16:25"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-021",
+    "text": "如果价格能再便宜百分之十，我们今天就可以定。",
+    "english": "If the price comes down another ten per cent, we can book today.",
+    "voice": "Tingting",
+    "rate": 305,
+    "tags": ["percentage", "conditional"],
+    "criticalSpans": [
+      {
+        "kind": "number",
+        "accepted": ["百分之十", "10%"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-022",
+    "text": "你刚才提到的那个姓翟的客户叫什么名字？",
+    "english": "What is the name of the client surnamed Zhai whom you mentioned?",
+    "voice": "Meijia",
+    "rate": 300,
+    "tags": ["rare-name", "question", "taiwan-voice"],
+    "criticalSpans": [
+      {
+        "kind": "name",
+        "accepted": ["姓翟"]
+      }
+    ]
+  },
+  {
+    "id": "ml-023",
+    "text": "先往前走两百米，然后在第二个路口左转。",
+    "english": "Go straight for 200 metres, then turn left at the second junction.",
+    "voice": "Tingting",
+    "rate": 320,
+    "tags": ["directions", "numbers", "fast"],
+    "criticalSpans": [
+      {
+        "kind": "number",
+        "accepted": ["两百米", "二百米", "200米"],
+        "safetyCritical": true
+      },
+      {
+        "kind": "number",
+        "accepted": ["第二个路口", "第2个路口"],
+        "safetyCritical": true
+      }
+    ]
+  },
+  {
+    "id": "ml-024",
+    "text": "说实话，我对这个结果有点意外，但也能接受。",
+    "english": "Honestly, I am a bit surprised by the result, but I can accept it.",
+    "voice": "Meijia",
+    "rate": 315,
+    "tags": ["pragmatic", "nuance", "taiwan-voice"]
+  }
+]

@@ -1,0 +1,32 @@
+.DS_Store
+.swiftpm/
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+relay/node_modules/
+relay/.wrangler/
+relay/.dev.vars
+relay/coverage/
+
+# Credentials, signing exports, and local environment overrides.
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+benchmarks/generated/
+*.tmp
+
+# Downloaded sherpa-onnx runtime and Mandarin model. Recreated by the setup script.
+ios/.local-deps/
+ios/MandarinListener/Resources/SpeechModels/
+ios/ThirdParty/
+*.xcresult
+*.ipa
+*.dSYM/

@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "description": "Copy this file to private/human-manifest.json and fill it with 24 selected Common Voice clips and 12 consented iPhone recordings. Empty values are deliberate; this template does not claim recordings exist.",
+  "commonVoiceDatasetVersion": "",
+  "requirements": {
+    "commonVoiceClips": 24,
+    "consentedClips": 12,
+    "minimumDistinctSpeakers": 12,
+    "frameDurationMs": 100,
+    "repetitionsPerProvider": 3
+  },
+  "clips": [
+    {
+      "id": "human-cv-001",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-002",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-003",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-004",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-005",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-006",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-007",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-008",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-009",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-010",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-011",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-012",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-013",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-014",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-015",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-016",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-017",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-018",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-019",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-020",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-021",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-022",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-023",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-cv-024",
+      "sourceType": "common_voice_cc0",
+      "sourceId": "",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-001",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["rapid-standard"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-002",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["regional-pronunciation"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-003",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["room-noise"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-004",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["name"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-005",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["number", "date"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-006",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["negation"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-007",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["self-correction"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-008",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["rapid-standard", "name"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-009",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["regional-pronunciation", "number"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-010",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["room-noise", "negation"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-011",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["date", "time", "self-correction"],
+      "tags": [],
+      "criticalSpans": []
+    },
+    {
+      "id": "human-consented-012",
+      "sourceType": "consented_private",
+      "audioFile": "",
+      "referenceText": "",
+      "speakerId": "",
+      "consentRecorded": false,
+      "retention": "delete_after_evaluation",
+      "targetTags": ["regional-pronunciation", "room-noise"],
+      "tags": [],
+      "criticalSpans": []
+    }
+  ]
+}

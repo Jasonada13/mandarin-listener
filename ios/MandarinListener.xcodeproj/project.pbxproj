@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006B5EDEDE9F4B2DD9F8FF2D /* TranslationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39409A7A83E8DB628A94B5CC /* TranslationClient.swift */; };
+		0C3E4D3904EC15F7E58C4481 /* SherpaOnnxSpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC2A7F142EC1A04B7D3736 /* SherpaOnnxSpeechRecognitionService.swift */; };
+		0CD440A8B497B30ABD2C6D53 /* ElevenLabsSpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627B0E48394DE3CF04DCA31 /* ElevenLabsSpeechRecognitionService.swift */; };
+		1FBD5175C12749E90F1A909C /* sherpa-onnx.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF33EF4F403D5DDBAC405D57 /* sherpa-onnx.xcframework */; };
+		2F6A81CF1BDC5AC8B43FEC02 /* TranscriptCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9EB1F3673CA23855188006 /* TranscriptCard.swift */; };
+		3D098A401151A1CEA37686A4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1A2588D656D0E73AB6210 /* SettingsView.swift */; };
+		41C233B9C5C61DDC7A0BB5FF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D0E37B6CA905940DE5BCB /* MainView.swift */; };
+		4DAA31AC52287F01E576F080 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CDC919292D026EC888C8 /* KeychainStore.swift */; };
+		5032E536268E3FCC80F4D037 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0818C764DDC82F1FE682A5B /* AppSettings.swift */; };
+		5170A0A4A586E5EC1D4F43FD /* SpeechModels in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2AEFB76C0BD7C83DD7A9A /* SpeechModels */; };
+		54A1D38641A84D8EE52AA250 /* AppleSpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECA06385F8062E85103E94 /* AppleSpeechRecognitionService.swift */; };
+		7172D95D574CDE916F314257 /* RoutePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEDE6E47BD2EF29FA9EA949 /* RoutePickerButton.swift */; };
+		7AF5B7804673AB651DA07423 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B9FB6D1F43C28B3D4D4A39 /* ShareSheet.swift */; };
+		7B1C93FA0F7EAD83DDF0C5D9 /* RecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A578B5D466A234D953F4E084 /* RecognitionService.swift */; };
+		81A04C9AAE66E053EB66E221 /* SpeechQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD76A241F5BFA5C206F10DB /* SpeechQueue.swift */; };
+		95F8C72A17B1A11D42D01F6A /* MandarinListenerCore in Frameworks */ = {isa = PBXBuildFile; productRef = F5D9E5FE32709CEA307C77FE /* MandarinListenerCore */; };
+		9D30DB35F27274D8537DEFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EF2A0C9AEF98C70B720D27 /* Assets.xcassets */; };
+		AA47695A930B325DB7B111DA /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42514146B1F4F40B21E1F34F /* SessionController.swift */; };
+		B8DB3F8A1EFC5108AD58F282 /* AudioCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02644CE893B9B899178650B /* AudioCaptureService.swift */; };
+		C34F8D0157C8AEECAB6A2405 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D684B6BBA65CCCB0115A62E3 /* PrivacyInfo.xcprivacy */; };
+		C8F4EBC14D178B6F631DC299 /* SherpaOnnxStreamingRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0797147000F25035BC7193 /* SherpaOnnxStreamingRecognizer.swift */; };
+		CF7269B189303F19FF48B16F /* onnxruntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D5FE62EFB506CA34DEB412 /* onnxruntime.xcframework */; };
+		D842CF7E189141B1291BCF37 /* CaptionCorrectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6086D0CB3069058C8879DD /* CaptionCorrectionView.swift */; };
+		DD41735C6777A184E94546E8 /* MandarinListenerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194833B60355B744360BE8B /* MandarinListenerApp.swift */; };
+		E8BC6CA3C0D096626F811110 /* TranscriptExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405AB793AABF29254BD01EB /* TranscriptExporter.swift */; };
+		F2DB8225699D8D4074E14B69 /* SpeechVoiceCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ECA7A29A6FB8BB94087707 /* SpeechVoiceCatalog.swift */; };
+		F713AD9A832FE5448CA76800 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9223B18065D88BB998891DF /* NetworkMonitor.swift */; };
+		F756FE12936ECF6BE59FB9AD /* VocabularyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C25C145906BE02C53E1D34 /* VocabularyStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09421C36A4F483E8D921FBFC /* MandarinListener.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MandarinListener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D5FE62EFB506CA34DEB412 /* onnxruntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = onnxruntime.xcframework; path = ThirdParty/onnxruntime.xcframework; sourceTree = "<group>"; };
+		0C0797147000F25035BC7193 /* SherpaOnnxStreamingRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaOnnxStreamingRecognizer.swift; sourceTree = "<group>"; };
+		11DF8640F6FAF243FD193D5C /* MandarinListener-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MandarinListener-Bridging-Header.h"; sourceTree = "<group>"; };
+		11EF2A0C9AEF98C70B720D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2463181C2FE862D547DB51E7 /* MandarinListenerCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MandarinListenerCore; path = MandarinListenerCore; sourceTree = SOURCE_ROOT; };
+		37ECA7A29A6FB8BB94087707 /* SpeechVoiceCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechVoiceCatalog.swift; sourceTree = "<group>"; };
+		38BC2A7F142EC1A04B7D3736 /* SherpaOnnxSpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaOnnxSpeechRecognitionService.swift; sourceTree = "<group>"; };
+		39409A7A83E8DB628A94B5CC /* TranslationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationClient.swift; sourceTree = "<group>"; };
+		42514146B1F4F40B21E1F34F /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		4627B0E48394DE3CF04DCA31 /* ElevenLabsSpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevenLabsSpeechRecognitionService.swift; sourceTree = "<group>"; };
+		4A9EB1F3673CA23855188006 /* TranscriptCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptCard.swift; sourceTree = "<group>"; };
+		6DF2AEFB76C0BD7C83DD7A9A /* SpeechModels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SpeechModels; path = MandarinListener/Resources/SpeechModels; sourceTree = SOURCE_ROOT; };
+		75F1A2588D656D0E73AB6210 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		791D0E37B6CA905940DE5BCB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8377CDC919292D026EC888C8 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		A0B9FB6D1F43C28B3D4D4A39 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		A2C25C145906BE02C53E1D34 /* VocabularyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyStore.swift; sourceTree = "<group>"; };
+		A405AB793AABF29254BD01EB /* TranscriptExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptExporter.swift; sourceTree = "<group>"; };
+		A578B5D466A234D953F4E084 /* RecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionService.swift; sourceTree = "<group>"; };
+		C02644CE893B9B899178650B /* AudioCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureService.swift; sourceTree = "<group>"; };
+		CDEDE6E47BD2EF29FA9EA949 /* RoutePickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePickerButton.swift; sourceTree = "<group>"; };
+		CF6086D0CB3069058C8879DD /* CaptionCorrectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionCorrectionView.swift; sourceTree = "<group>"; };
+		D684B6BBA65CCCB0115A62E3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E9223B18065D88BB998891DF /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		F0818C764DDC82F1FE682A5B /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		F194833B60355B744360BE8B /* MandarinListenerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandarinListenerApp.swift; sourceTree = "<group>"; };
+		F1ECA06385F8062E85103E94 /* AppleSpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSpeechRecognitionService.swift; sourceTree = "<group>"; };
+		FAD76A241F5BFA5C206F10DB /* SpeechQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechQueue.swift; sourceTree = "<group>"; };
+		FF33EF4F403D5DDBAC405D57 /* sherpa-onnx.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "sherpa-onnx.xcframework"; path = "ThirdParty/sherpa-onnx.xcframework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		620F636395716848AEB68E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F8C72A17B1A11D42D01F6A /* MandarinListenerCore in Frameworks */,
+				1FBD5175C12749E90F1A909C /* sherpa-onnx.xcframework in Frameworks */,
+				CF7269B189303F19FF48B16F /* onnxruntime.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184F38394E9EBFE03DE784E4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2463181C2FE862D547DB51E7 /* MandarinListenerCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		2A8AE87301081974FBE9BCEF /* MandarinListener */ = {
+			isa = PBXGroup;
+			children = (
+				81F604FFDD55EFDFAB04FCDA /* App */,
+				BFA59EFFD2393D9DAE338C64 /* Resources */,
+				E6078B2A02E4BF5414013E02 /* Services */,
+				7A6A9372132864B0050EACCF /* Support */,
+				725339FC94D98D117D679152 /* Views */,
+			);
+			path = MandarinListener;
+			sourceTree = "<group>";
+		};
+		5C67C9ECEA5E4B0C562F295D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09421C36A4F483E8D921FBFC /* MandarinListener.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725339FC94D98D117D679152 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF6086D0CB3069058C8879DD /* CaptionCorrectionView.swift */,
+				791D0E37B6CA905940DE5BCB /* MainView.swift */,
+				CDEDE6E47BD2EF29FA9EA949 /* RoutePickerButton.swift */,
+				75F1A2588D656D0E73AB6210 /* SettingsView.swift */,
+				A0B9FB6D1F43C28B3D4D4A39 /* ShareSheet.swift */,
+				4A9EB1F3673CA23855188006 /* TranscriptCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A6A9372132864B0050EACCF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				11DF8640F6FAF243FD193D5C /* MandarinListener-Bridging-Header.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		81F604FFDD55EFDFAB04FCDA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F194833B60355B744360BE8B /* MandarinListenerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BFA59EFFD2393D9DAE338C64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11EF2A0C9AEF98C70B720D27 /* Assets.xcassets */,
+				D684B6BBA65CCCB0115A62E3 /* PrivacyInfo.xcprivacy */,
+				6DF2AEFB76C0BD7C83DD7A9A /* SpeechModels */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C31380933FD8CF8476670EA1 = {
+			isa = PBXGroup;
+			children = (
+				2A8AE87301081974FBE9BCEF /* MandarinListener */,
+				184F38394E9EBFE03DE784E4 /* Packages */,
+				CAB5D0D4A4C3F9E5B2018A44 /* Frameworks */,
+				5C67C9ECEA5E4B0C562F295D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB5D0D4A4C3F9E5B2018A44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D5FE62EFB506CA34DEB412 /* onnxruntime.xcframework */,
+				FF33EF4F403D5DDBAC405D57 /* sherpa-onnx.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6078B2A02E4BF5414013E02 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1ECA06385F8062E85103E94 /* AppleSpeechRecognitionService.swift */,
+				F0818C764DDC82F1FE682A5B /* AppSettings.swift */,
+				C02644CE893B9B899178650B /* AudioCaptureService.swift */,
+				4627B0E48394DE3CF04DCA31 /* ElevenLabsSpeechRecognitionService.swift */,
+				8377CDC919292D026EC888C8 /* KeychainStore.swift */,
+				E9223B18065D88BB998891DF /* NetworkMonitor.swift */,
+				A578B5D466A234D953F4E084 /* RecognitionService.swift */,
+				42514146B1F4F40B21E1F34F /* SessionController.swift */,
+				38BC2A7F142EC1A04B7D3736 /* SherpaOnnxSpeechRecognitionService.swift */,
+				0C0797147000F25035BC7193 /* SherpaOnnxStreamingRecognizer.swift */,
+				FAD76A241F5BFA5C206F10DB /* SpeechQueue.swift */,
+				37ECA7A29A6FB8BB94087707 /* SpeechVoiceCatalog.swift */,
+				A405AB793AABF29254BD01EB /* TranscriptExporter.swift */,
+				39409A7A83E8DB628A94B5CC /* TranslationClient.swift */,
+				A2C25C145906BE02C53E1D34 /* VocabularyStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9804F555843FE7372A9773A /* MandarinListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D99A6BBD032F1D876BD5C3 /* Build configuration list for PBXNativeTarget "MandarinListener" */;
+			buildPhases = (
+				55A0FC3289A00767AA118913 /* Sources */,
+				31F8ECF5BA1AED2D72D9947D /* Resources */,
+				620F636395716848AEB68E57 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MandarinListener;
+			packageProductDependencies = (
+				F5D9E5FE32709CEA307C77FE /* MandarinListenerCore */,
+			);
+			productName = MandarinListener;
+			productReference = 09421C36A4F483E8D921FBFC /* MandarinListener.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D557409725957706306B171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E9804F555843FE7372A9773A = {
+						DevelopmentTeam = C3YXB4UD2H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 173F723B034641511651F194 /* Build configuration list for PBXProject "MandarinListener" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C31380933FD8CF8476670EA1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				28E00A595C417B822E39A841 /* XCLocalSwiftPackageReference "MandarinListenerCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C67C9ECEA5E4B0C562F295D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9804F555843FE7372A9773A /* MandarinListener */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31F8ECF5BA1AED2D72D9947D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D30DB35F27274D8537DEFC7 /* Assets.xcassets in Resources */,
+				C34F8D0157C8AEECAB6A2405 /* PrivacyInfo.xcprivacy in Resources */,
+				5170A0A4A586E5EC1D4F43FD /* SpeechModels in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A0FC3289A00767AA118913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5032E536268E3FCC80F4D037 /* AppSettings.swift in Sources */,
+				54A1D38641A84D8EE52AA250 /* AppleSpeechRecognitionService.swift in Sources */,
+				B8DB3F8A1EFC5108AD58F282 /* AudioCaptureService.swift in Sources */,
+				D842CF7E189141B1291BCF37 /* CaptionCorrectionView.swift in Sources */,
+				0CD440A8B497B30ABD2C6D53 /* ElevenLabsSpeechRecognitionService.swift in Sources */,
+				4DAA31AC52287F01E576F080 /* KeychainStore.swift in Sources */,
+				41C233B9C5C61DDC7A0BB5FF /* MainView.swift in Sources */,
+				DD41735C6777A184E94546E8 /* MandarinListenerApp.swift in Sources */,
+				F713AD9A832FE5448CA76800 /* NetworkMonitor.swift in Sources */,
+				7B1C93FA0F7EAD83DDF0C5D9 /* RecognitionService.swift in Sources */,
+				7172D95D574CDE916F314257 /* RoutePickerButton.swift in Sources */,
+				AA47695A930B325DB7B111DA /* SessionController.swift in Sources */,
+				3D098A401151A1CEA37686A4 /* SettingsView.swift in Sources */,
+				7AF5B7804673AB651DA07423 /* ShareSheet.swift in Sources */,
+				0C3E4D3904EC15F7E58C4481 /* SherpaOnnxSpeechRecognitionService.swift in Sources */,
+				C8F4EBC14D178B6F631DC299 /* SherpaOnnxStreamingRecognizer.swift in Sources */,
+				81A04C9AAE66E053EB66E221 /* SpeechQueue.swift in Sources */,
+				F2DB8225699D8D4074E14B69 /* SpeechVoiceCatalog.swift in Sources */,
+				2F6A81CF1BDC5AC8B43FEC02 /* TranscriptCard.swift in Sources */,
+				E8BC6CA3C0D096626F811110 /* TranscriptExporter.swift in Sources */,
+				006B5EDEDE9F4B2DD9F8FF2D /* TranslationClient.swift in Sources */,
+				F756FE12936ECF6BE59FB9AD /* VocabularyStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D5D06D5DB6252E03DA97BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MandarinListener/Resources/MandarinListener.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3YXB4UD2H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"ThirdParty\"",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ThirdParty/sherpa-onnx.xcframework/Headers";
+				INFOPLIST_FILE = MandarinListener/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited) -lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonadams.MandarinListener;
+				PRODUCT_NAME = "Mandarin Listener";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MandarinListener/Support/MandarinListener-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D4E3B41766F4C14F259EB1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		F582BB08AC56B793ADB5DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		F82E362F9489F6E26203DC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MandarinListener/Resources/MandarinListener.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3YXB4UD2H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"ThirdParty\"",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ThirdParty/sherpa-onnx.xcframework/Headers";
+				INFOPLIST_FILE = MandarinListener/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited) -lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonadams.MandarinListener;
+				PRODUCT_NAME = "Mandarin Listener";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MandarinListener/Support/MandarinListener-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173F723B034641511651F194 /* Build configuration list for PBXProject "MandarinListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F582BB08AC56B793ADB5DC09 /* Debug */,
+				D4E3B41766F4C14F259EB1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1D99A6BBD032F1D876BD5C3 /* Build configuration list for PBXNativeTarget "MandarinListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82E362F9489F6E26203DC8B /* Debug */,
+				1D5D06D5DB6252E03DA97BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		28E00A595C417B822E39A841 /* XCLocalSwiftPackageReference "MandarinListenerCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MandarinListenerCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5D9E5FE32709CEA307C77FE /* MandarinListenerCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MandarinListenerCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D557409725957706306B171 /* Project object */;
+}

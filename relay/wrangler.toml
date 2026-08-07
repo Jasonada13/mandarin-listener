@@ -1,0 +1,32 @@
+name = "mandarin-listener-relay"
+main = "src/index.ts"
+compatibility_date = "2026-08-03"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+  [observability.logs]
+  enabled = true
+  invocation_logs = true
+  head_sampling_rate = 1
+  persist = true
+
+[vars]
+KIMI_MODEL = "kimi-k2.6"
+
+[[ratelimits]]
+name = "TRANSLATION_RATE_LIMITER"
+namespace_id = "792601"
+
+  [ratelimits.simple]
+  limit = 200
+  period = 60
+
+[[ratelimits]]
+name = "TOKEN_RATE_LIMITER"
+namespace_id = "792602"
+
+  [ratelimits.simple]
+  limit = 20
+  period = 60

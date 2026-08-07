@@ -1,0 +1,6 @@
+#ifndef MANDARIN_LISTENER_BRIDGING_HEADER_H_
+#define MANDARIN_LISTENER_BRIDGING_HEADER_H_
+
+#import "sherpa-onnx/c-api/c-api.h"
+
+#endif  // MANDARIN_LISTENER_BRIDGING_HEADER_H_

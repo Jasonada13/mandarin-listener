@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ml-001",
+    "transcript": "麻烦你把窗户关一下，外面有点吵。",
+    "finalReceived": true,
+    "finalCount": 1,
+    "finalizationMs": 780,
+    "englishCaptionMs": 2380,
+    "spokenAudioStartMs": 3260,
+    "partials": [
+      {
+        "text": "麻烦你",
+        "atMs": 320
+      },
+      {
+        "text": "麻烦你把窗户关一下",
+        "atMs": 710
+      }
+    ]
+  },
+  {
+    "id": "ml-002",
+    "transcript": null,
+    "finalReceived": false,
+    "finalCount": 0,
+    "finalizationMs": null,
+    "englishCaptionMs": null,
+    "spokenAudioStartMs": null,
+    "partials": [
+      {
+        "text": "我不是说周三",
+        "atMs": 490
+      }
+    ]
+  }
+]

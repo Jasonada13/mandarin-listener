@@ -1,0 +1,64 @@
+name: MandarinListener
+
+options:
+  bundleIdPrefix: com.jasonadams
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+
+packages:
+  MandarinListenerCore:
+    path: MandarinListenerCore
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    ENABLE_USER_SCRIPT_SANDBOXING: true
+
+targets:
+  MandarinListener:
+    type: application
+    platform: iOS
+    sources:
+      - path: MandarinListener
+        excludes:
+          - Resources/Info.plist
+          - Resources/MandarinListener.entitlements
+          - Resources/SpeechModels
+      - path: MandarinListener/Resources/SpeechModels
+        type: folder
+        buildPhase: resources
+    resources:
+      - path: MandarinListener/Resources/Assets.xcassets
+      - path: MandarinListener/Resources/PrivacyInfo.xcprivacy
+    dependencies:
+      - package: MandarinListenerCore
+      - framework: ThirdParty/sherpa-onnx.xcframework
+        embed: false
+      - framework: ThirdParty/onnxruntime.xcframework
+        embed: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jasonadams.MandarinListener
+        PRODUCT_NAME: Mandarin Listener
+        INFOPLIST_FILE: MandarinListener/Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: MandarinListener/Resources/MandarinListener.entitlements
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: C3YXB4UD2H
+        HEADER_SEARCH_PATHS: "$(PROJECT_DIR)/ThirdParty/sherpa-onnx.xcframework/Headers"
+        OTHER_LDFLAGS: "$(inherited) -lc++"
+        SWIFT_OBJC_BRIDGING_HEADER: MandarinListener/Support/MandarinListener-Bridging-Header.h
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+schemes:
+  MandarinListener:
+    build:
+      targets:
+        MandarinListener: all
+    run:
+      config: Debug
+    archive:
+      config: Release
