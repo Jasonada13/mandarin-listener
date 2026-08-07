@@ -34,7 +34,7 @@ Updated 3 August 2026.
 - Genuine Xcode 26.3 installed with the iOS 26.2 platform and iOS 26.3.1 simulator; the obsolete Xcode 16.4 bundle was permanently deleted.
 - Apple Development signing identity and automatic Personal Team provisioning configured. The complete arm64 target compiles, signs, and installs successfully on the target iPhone. The final SDK check also replaced a provisional `AnalyzerInputConverter` dependency with an SDK-compatible streaming `AVAudioConverter` adapter.
 - The rolling-preview build compiled, signed, installed, and launched successfully on the target iPhone.
-- A fresh Personal Team profile was issued and the travel build was installed on 7 August 2026; iOS requires the one-time on-device trust confirmation before it will launch.
+- A fresh Personal Team profile valid through 14 August 2026 was issued, installed, trusted, and launched successfully on the target iPhone on 7 August 2026.
 - A portable second-Mac bootstrap and travel handoff recreate all excluded speech dependencies without committing credentials, signing material, or generated binaries.
 - Repository scan found no Qwen, Alibaba, DashScope, old ASR relay contracts, real credentials, or transcript/audio logging.
 
